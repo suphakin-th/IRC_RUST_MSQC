@@ -193,7 +193,7 @@ impl IRCClient {
 					} else {
 						Err(e)
 					}
-				}
+				} 
 			}
 		} else {
 			Err(Error::new(
