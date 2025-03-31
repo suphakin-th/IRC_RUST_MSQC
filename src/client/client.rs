@@ -179,7 +179,7 @@ impl IRCClient {
 					if size == 0 {
 						return Err(Error::new(
 							ErrorKind::ConnectionAborted,
-							"Connection closed by server",
+							"Connection closed by server", 
 						));
 					}
 
